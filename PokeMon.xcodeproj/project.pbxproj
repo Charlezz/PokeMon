@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		564EB9D01CB0CA14007C6501 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564EB9CF1CB0CA14007C6501 /* PokeCell.swift */; };
+		564EB9D21CB0D097007C6501 /* poke in Resources */ = {isa = PBXBuildFile; fileRef = 564EB9D11CB0D097007C6501 /* poke */; };
 		568EA8381CB0C7B200616827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EA8371CB0C7B200616827 /* AppDelegate.swift */; };
 		568EA83A1CB0C7B200616827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EA8391CB0C7B200616827 /* ViewController.swift */; };
 		568EA83D1CB0C7B200616827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EA83B1CB0C7B200616827 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		564EB9CF1CB0CA14007C6501 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		564EB9D11CB0D097007C6501 /* poke */ = {isa = PBXFileReference; lastKnownFileType = folder; path = poke; sourceTree = "<group>"; };
 		568EA8341CB0C7B200616827 /* PokeMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568EA8371CB0C7B200616827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		568EA8391CB0C7B200616827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				568EA8371CB0C7B200616827 /* AppDelegate.swift */,
 				568EA8391CB0C7B200616827 /* ViewController.swift */,
+				564EB9CF1CB0CA14007C6501 /* PokeCell.swift */,
+				564EB9D11CB0D097007C6501 /* poke */,
 				568EA83B1CB0C7B200616827 /* Main.storyboard */,
 				568EA83E1CB0C7B200616827 /* Assets.xcassets */,
 				568EA8401CB0C7B200616827 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				568EA8421CB0C7B200616827 /* LaunchScreen.storyboard in Resources */,
 				568EA83F1CB0C7B200616827 /* Assets.xcassets in Resources */,
 				568EA83D1CB0C7B200616827 /* Main.storyboard in Resources */,
+				564EB9D21CB0D097007C6501 /* poke in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			files = (
 				568EA83A1CB0C7B200616827 /* ViewController.swift in Sources */,
 				568EA8381CB0C7B200616827 /* AppDelegate.swift in Sources */,
+				564EB9D01CB0CA14007C6501 /* PokeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				568EA8481CB0C7B200616827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
